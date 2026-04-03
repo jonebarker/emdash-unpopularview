@@ -21,10 +21,12 @@
 	],
 	"observability": {
 		"enabled": true,
-	},
-	"worker_loaders": [
-		{
-			"binding": "LOADER",
-		},
-	],
+	}
+// Commented thisd workers loader sectin to prevent use of dynamic workers.  
+//,
+//	"worker_loaders": [
+//		{
+//			"binding": "LOADER",
+//		},
+//	],
 }
